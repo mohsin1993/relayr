@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tr It renders table row correctly 1`] = `
+<table>
+  <tbody>
+    <tr>
+      <td>
+        acceleration_x
+      </td>
+      <td>
+        m/s2
+      </td>
+      <td>
+        25.993848858558
+      </td>
+      <td>
+        28-05-2019 01:22
+      </td>
+      <td
+        className="actions"
+      >
+        <input
+          checked={true}
+          disabled={false}
+          onChange={[Function]}
+          type="checkbox"
+        />
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`Tr It renders table row correctly 2`] = `
+<table>
+  <tbody>
+    <tr>
+      <td>
+        acceleration_x
+      </td>
+      <td>
+        m/s2
+      </td>
+      <td>
+        25.993848858558
+      </td>
+      <td>
+        28-05-2019 01:22
+      </td>
+      <td
+        className="actions"
+      >
+        <input
+          checked={true}
+          disabled={true}
+          onChange={[Function]}
+          type="checkbox"
+        />
+        <span>
+          deactivating
+          ...
+        </span>
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;

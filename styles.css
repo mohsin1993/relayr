@@ -1,0 +1,190 @@
+/* Add your CSS here. This file should */
+/* automatically hot reload into the app on save */
+body {
+  font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+}
+
+.status-bar {
+  color: rgba(0, 0, 0, 0.65);
+  padding: 10px 15px;
+}
+
+.status-bar>span {
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.status-bar>span>.value.success {
+  color: rgb(82, 196, 26);
+}
+
+.status-bar>span>.value.error {
+  color: #f5222d;
+}
+
+.status-bar>span>.value {
+  background-color: rgb(255, 255, 255);
+  color: rgb(153, 153, 153);
+  box-shadow: rgb(217, 217, 217) 0px 0px 0px 1px inset;
+  display: inline-block;
+  min-width: 20px;
+  height: 20px;
+  padding: 0 6px;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  white-space: nowrap;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.status-bar label {
+  font-weight: 500;
+}
+
+.loading {
+  margin: 0px 15px;
+  font-weight: bold;
+}
+
+.toolbar {
+  margin: 0px 15px;
+  position: relative;
+  height: 40px;
+}
+
+.toolbar input {
+  position: absolute;
+  right: 0px;
+  display: inline-block;
+  padding: 4px 11px;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 14px;
+  line-height: 1.5;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  outline: none;
+  transition: all .3s
+}
+
+.toolbar input:hover {
+  border-color: #1890ff !important;
+}
+
+.toolbar button:hover {
+  color: #1890ff !important;
+  border-color: #1890ff !important;
+}
+
+.toolbar button {
+  position: absolute;
+  left: 0px;
+  cursor: pointer;
+  line-height: 1.499;
+  position: relative;
+  display: inline-block;
+  font-weight: 400;
+  white-space: nowrap;
+  text-align: center;
+  background-image: none;
+  border: 1px solid transparent;
+  height: 32px;
+  padding: 0 15px;
+  font-size: 14px;
+  border-radius: 4px;
+  color: rgba(0, 0, 0, 0.65);
+  background-color: #fff;
+  border-color: #d9d9d9;
+  transition: all .3s;
+  outline: none;
+}
+
+h1 {
+  padding: 0px 15px;
+}
+
+.grid {
+  padding: 0px 15px;
+  margin: 0 0 16px;
+}
+
+table {
+  width: 100%;
+  border-spacing: 0;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5;
+  list-style: none;
+}
+
+table th {
+  background-color: #fafafa;
+  color: rgba(0, 0, 0, 0.85);
+  font-weight: 500;
+  vertical-align: top;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+table tbody tr td {
+  vertical-align: middle;
+  border-bottom: 1px solid #e6f7fe;
+}
+
+table tbody tr {
+  transition: all .3s;
+}
+
+table tbody tr:hover {
+  background: #e6f7fe;
+}
+
+table tbody tr td input[type=checkbox] {
+  height: 14px;
+  width: 14px;
+  cursor: pointer;
+}
+
+table tbody tr td .spinner {
+  margin-left: 15px;
+}
+
+table td.actions {
+  width: 200px;
+}
+
+table td.actions input+span {
+  margin-left: 15px;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 16px 16px;
+}
+
+.spinner {
+  height: 3vh;
+  width: 3vh;
+  border: 2px solid black;
+  border-top-color: white;
+  border-radius: 100%;
+  animation: spinnerRotation 0.6s infinite linear 0.25s;
+  opacity: 0;
+  display: inline-block;
+}
+
+@keyframes spinnerRotation {
+  from {
+    opacity: 1;
+    transform: rotate(0deg);
+  }
+
+  to {
+    opacity: 1;
+    transform: rotate(360deg);
+  }
+}

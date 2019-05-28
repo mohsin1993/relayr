@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StatusBar Render status bar correctly 1`] = `
+<div
+  className="status-bar"
+>
+  <span>
+    <label>
+      Active: 
+    </label>
+    <span
+      className="value success"
+    >
+      5
+    </span>
+  </span>
+  <span>
+    <label>
+      Inactive: 
+    </label>
+    <span
+      className="value error"
+    >
+      2
+    </span>
+  </span>
+</div>
+`;

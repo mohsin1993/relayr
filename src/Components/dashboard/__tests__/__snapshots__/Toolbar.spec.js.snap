@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Toolbar Render toolbar correctly 1`] = `
+<div
+  className="toolbar"
+>
+  <button
+    onClick={[MockFunction]}
+    type="button"
+  >
+    Reload
+  </button>
+  <input
+    onChange={[Function]}
+    placeholder="Search"
+    type="text"
+    value="acce"
+  />
+</div>
+`;

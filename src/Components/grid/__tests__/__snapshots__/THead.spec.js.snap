@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`THead It renders THead correctly 1`] = `
+<table>
+  <thead>
+    <tr>
+      <th>
+        Name
+      </th>
+      <th>
+        Unit
+      </th>
+      <th>
+        Value
+      </th>
+      <th>
+        Timestamp
+      </th>
+      <th>
+        Active
+      </th>
+    </tr>
+  </thead>
+</table>
+`;
